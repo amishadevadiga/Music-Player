@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Spotify - The music playing app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songsList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="1" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="2" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="3" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="4" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="5" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="6" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="7" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="8" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="9" ></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span>Let me sing</span><span class="songItemPlay"><span class="timestamp">05.34</span><span class="itemPlay"><i class="fas MiniPlayItem fa-2x fa-play-circle" id ="10" ></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songsBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icon -->
+            <i class="fas songPlayItem fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas songPlayItem fa-3x fa-play-circle"  id="masterPlay"></i>
+            <i class="fas songPlayItem fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="60px" id="gif"> <span id="masterSongName">Let me Sing</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
