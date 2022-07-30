@@ -75,7 +75,8 @@ nav ul li{
 }
 .songInfo{
     position: absolute;
-    left: 15vw;
+    left: 0vw;
+    height: 2vh;
 }
 .bottom{
     position: sticky;
